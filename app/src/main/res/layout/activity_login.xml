@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.LoginActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="#ffffff"
+        android:visibility="visible"
+        android:background="@color/lightGreen"/>
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:textAlignment="center"
+        android:text="sjkjnkjnj"
+        android:textSize="22sp"
+        android:layout_marginTop="33dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="33dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/nameTextView"/>
+    <Button
+        android:id="@+id/showLoaderbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="33dp"
+        android:layout_centerHorizontal="true"
+        android:text="Show Loader" />
+
+    <Button
+        android:id="@+id/moveToNextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/showLoaderbutton"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="Move to  Next" />
+
+
+
+</RelativeLayout>
